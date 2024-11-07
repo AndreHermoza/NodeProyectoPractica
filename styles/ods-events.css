@@ -1,0 +1,21 @@
+.contenedor-exterior {
+    display: flex; /* Utiliza flexbox para la disposición */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+
+.contenedor-fechasimportantes {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    margin: 10px; /* Añade un margen de 10px alrededor del contenedor */
+    max-width: 600px; /* Establece un ancho máximo para que no ocupe toda la pantalla */
+}
+
+.evento-box {
+    border: 1px solid #ccc; /* Añade un borde de 1px con un color gris claro */
+    padding: 20px; /* Espaciado interno de 20px alrededor del contenido */
+    margin-top: 10px; /* Añade un margen superior de 10px entre las cajas de eventos */
+    background-color: #f9f9f9; /* Color de fondo gris claro para las cajas de eventos */
+    display: inline-block; /* Hace que el cuadro se ajuste al tamaño del contenido */
+}
